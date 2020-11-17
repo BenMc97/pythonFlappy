@@ -182,7 +182,7 @@ while True:
         screen.blit(press_play_surface, press_play_rect)
 
         pygame.display.update()
-        clock.tick(90)
+        clock.tick(70)
 
     while playing == 'choose_bird':
         for event in pygame.event.get():
@@ -237,7 +237,7 @@ while True:
         screen.blit(welcome_surface, welcome_rect)
 
         pygame.display.update()
-        clock.tick(90)
+        clock.tick(70)
 
     while playing == 'play_game':
         for event in pygame.event.get():
@@ -314,6 +314,6 @@ while True:
             floor_x_pos = 0
 
         pygame.display.update()
-        clock.tick(90)
+        clock.tick(70)
 
 
