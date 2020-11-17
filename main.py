@@ -76,6 +76,7 @@ def pipe_score_check():
 
 
 pygame.init()
+pygame.display.set_caption('Flappy')
 screen = pygame.display.set_mode((576,800))
 clock = pygame.time.Clock()
 game_font = pygame.font.Font('Flappy-font/04B_19.TTF',25)
